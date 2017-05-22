@@ -15,7 +15,7 @@ public class ElseIf {
         } else if (y <=100) {
             System.out.println("high power state");
         } else {
-            System.out.println("O V E R L O A D danger danger O V E R L O A D");
+            System.out.println("O V E R L O A D danger will robinson danger O V E R L O A D");
         }
 
     }
