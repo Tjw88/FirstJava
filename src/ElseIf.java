@@ -3,9 +3,12 @@
  */
 public class ElseIf {
     public static void main(String [] args){
+        //declare the variable - type integer
         int y;
+        //initialise the variable
         y = 101;
 
+        // running else if - progresses through - good for ranges to check int var
         if (y <=10) {
             System.out.println("minimum");
         } else if (y <=25) {

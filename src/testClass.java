@@ -8,6 +8,7 @@ public class testClass {
 
     public static void main(String[] args) {
 
+        //running conversation based on if / else. Can only use == with int. Thats why this DOESN'T WORK!!
         System.out.println("Hello World!");
         System.out.println("Do you want to play a game?");
         Scanner scanner = new Scanner(System.in);
@@ -18,6 +19,7 @@ public class testClass {
         } else {
             System.out.println("Well... Fuck you buddy");
             System.exit(0);
+            // THIS DOESN'T WORK as above - will always tell you to fuck off buddy!
         }
         int twoAns = scanner.nextInt();
         if (twoAns == 32) {
