@@ -12,8 +12,6 @@ public class SimpleCalc {
         double ans;
         System.out.println("Enter your first number");
         num1 = input.nextDouble();
-        System.out.println("Enter your second number");
-        num2 = input.nextDouble();
         System.out.println("Enter 1-4 for function");
         System.out.println("1. Sum");
         System.out.println("2. Minus");
@@ -22,6 +20,8 @@ public class SimpleCalc {
         int functionSwitch;
         double answer;
         functionSwitch = input.nextInt();
+        System.out.println("Enter your second number");
+        num2 = input.nextDouble();
         switch (functionSwitch) {
             case 1: answer = num1 + num2;
             break;
