@@ -49,18 +49,16 @@ public class RoundingNumbers {
         double output1a = output1 / dpuse;
         output2 = Math.round(input2 * dpuse);
         double output2a = output2 / dpuse;
-        //if else run for test...
-        if (dpstate > 1) {
+        //if else run for test. Uses nested if fn depending whether is/isn't equivalent. If else used for grammar (>1)
+        if (dpstate > 1) {if (output1a == output2a) {
+            System.out.println("The numbers are equivalent to " + dpstate + " decimal places.");
+        } else {
+            System.out.println("The numbers are not equivalent to " + dpstate + " decimal places.");
+        }} else {
             if (output1a == output2a) {
-                System.out.println("The numbers are equal to " + dpstate + "decimal place.");
+                System.out.println("The numbers are equivalent to " + dpstate + " decimal place.");
             } else {
                 System.out.println("The numbers are not equivalent to " + dpstate + " decimal place.");
-            }
-        } else {
-            if (output1a == output2a) {
-                System.out.println("The numbers are equal to " + dpstate + "decimal places.");
-            } else {
-                System.out.println("The numbers are not equivalent to " + dpstate + " decimal places.");
             }
         }
     }
