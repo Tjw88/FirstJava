@@ -1,7 +1,3 @@
-/**
- * Created by Tnvn on 03/06/2017.
- */
-
 import java.util.Scanner;
 
 public class LovelyTriangle {
