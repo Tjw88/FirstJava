@@ -52,10 +52,14 @@ Fin */
         //state return keyword then function THIS is what will come out of the method
         return part2 + input2 / input3;
     }
-    public static void main(String [] args){
-        double result = sum(3,2,3);
+    public static void main(String [] args) {
+        double result = sum(3, 2, 3);
         System.out.println(result);
-    }
 
+    // this references to the ToolboxTest class. Reference the class, space, give it a name the =new [CLASS] ();
+        ToolboxTest catClass = new ToolboxTest();
+    // call up the created name for the class reference. then "." into the method within the class and will run!
+        catClass.catHello();
+    }
 }
 
