@@ -30,6 +30,7 @@ public class MyFirstArray {
         for (int testLoop: sumArray){
             System.out.println(testLoop);
         }
+
         //can have arrays within arrays e.g. two dimensional array, declare with [][] for row and column
         int[][] twoDArray = {{3,4,2},{3},{43,2,12}};
         System.out.println(twoDArray[0][2]); //equals array 0, pos 2 = 2
